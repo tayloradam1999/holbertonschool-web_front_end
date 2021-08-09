@@ -1,6 +1,6 @@
-Learning how to use SASS and SCSS!
+# Learning how to use SASS and SCSS!
 
-# General
+## General
 - What Sass means
 - How to write Sass & Scss file
 - What is the difference between Sass and Scss
@@ -12,7 +12,7 @@ Learning how to use SASS and SCSS!
 - How to declare extend/inheritance styles
 - How to manipulate operators
 
-# Install Sass/Scss on Ubuntu 18.04 LTS
+## Install Sass/Scss on Ubuntu 18.04 LTS
 ```
 $ sudo apt-get install -y ruby2.5 ruby2.5-dev
 $ sudo apt-get install ubuntu-dev-tools
@@ -21,7 +21,7 @@ $ sass --version
 Ruby Sass 3.7.4
 ```
 
-# Resources
-[Sass Basics](https://sass-lang.com/guide)
-[Sass flow control directives: @if, @for, @each and @while](https://sass-lang.com/documentation/at-rules/control)
-[Sass references](https://sass-lang.com/documentation)
+## Resources
+[Sass Basics](https://sass-lang.com/guide)  
+[Sass flow control directives: @if, @for, @each and @while](https://sass-lang.com/documentation/at-rules/control)  
+[Sass references](https://sass-lang.com/documentation)  
