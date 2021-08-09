@@ -1,0 +1,11 @@
+/* Assigns new text color to body and p tags */
+
+$my_var: #3D3D3D;
+
+body {
+    color: $my_var;
+}
+
+p {
+    color: $my_var;
+}
