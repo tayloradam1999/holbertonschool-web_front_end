@@ -19,6 +19,7 @@
 
 ## Use the CDN version  
 Add this ```<link>``` in the ```<head>``` part of your HTML file:  
+  
 ```<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">```  
   
 ## Task 0: Reboot styling  
@@ -30,6 +31,7 @@ In this task, we are given an HTML file and are asked to rewrite the styling usi
 **Requirements:**  
 - You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes  
 - You can not change the HTML structure - only adding classes is allowed  
+  
 This task provides us with an HTML file that renders several different containers. The task asks us to implement Bootstrap so that when we lower the width of our device, the containers react and are placed per the tasks restrictions and requirements.  
   
 ![task1](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/task1.gif)  
