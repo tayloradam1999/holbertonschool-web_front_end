@@ -6,7 +6,7 @@
 - [Bootstrap](https://intranet.hbtn.io/rltoken/II-u9lliwceVN22GaMLfmA)  
   
 ## Learning Objectives
-- At the end of this project, you are expected to be able to [explain to anyone](https://intranet.hbtn.io/rltoken/v8AsBqDPcmZA5MKRkNRJRg), **without the help of Google:**  
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.hbtn.io/rltoken/v8AsBqDPcmZA5MKRkNRJRg), **without the help of Google:**  
 - Usage of Containers  
 - Usage of the Grid system  
 - Usage of Components  
