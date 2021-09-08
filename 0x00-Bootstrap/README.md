@@ -40,6 +40,7 @@ This task provides us with an HTML file that renders several different container
 **Requirements:**  
 - You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes  
 - You can not change the HTML structure - only adding classes is allowed  
+  
 This task provides us with an HTML file that renders a table of chemical elements. All the tasks has us do is implement Bootstrap so that the rendered table scales sufficiently to the device size selected.  
   
 ![task2](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/task2.png)  
