@@ -22,7 +22,8 @@ Add this ```<link>``` in the ```<head>``` part of your HTML file:
 ```<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">```  
   
 ## Task 0: Reboot styling  
-In this task, we are given an HTML file and are asked to rewrite the styling using Bootstrap.  
+In this task, we are given an HTML file and are asked to rewrite the styling using Bootstrap. 
+   
 ![task0](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/task0.jpg)  
 
 ## Task 1: Blocks  
@@ -30,14 +31,18 @@ In this task, we are given an HTML file and are asked to rewrite the styling usi
 - You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes  
 - You can not change the HTML structure - only adding classes is allowed  
 This task provides us with an HTML file that renders several different containers. The task asks us to implement Bootstrap so that when we lower the width of our device, the containers react and are placed per the tasks restrictions and requirements.  
+  
 ![task1](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/task1.gif)  
 
 ## Task 2: Table of chemical elements  
 **Requirements:**  
 - You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes  
 - You can not change the HTML structure - only adding classes is allowed  
-This task provides us with an HTML file that renders a table of chemical elements. All the tasks has us do is implement Bootstrap so that the rendered table scales sufficiently to the device size selected. 
+This task provides us with an HTML file that renders a table of chemical elements. All the tasks has us do is implement Bootstrap so that the rendered table scales sufficiently to the device size selected.  
+  
 ![task2](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/task2.png)  
+  
 ![task2.2](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/task2.2.gif)  
-
+  
 ## Task 3: Cards  
+  
