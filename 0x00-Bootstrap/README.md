@@ -48,4 +48,16 @@ This task provides us with an HTML file that renders a table of chemical element
 ![task2.2](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/task2.2.gif)  
   
 ## Task 3: Cards  
+**Requirements:**  
+- You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes  
+- You can not change the HTML structure - only adding classes is allowed  
+
+This task provides us with a raw html file and has us implement bootstrap classes to position all of the divs correctly. This task also introduces us to JS modals!  
   
+![card1](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/card1.png)  
+  
+![card2](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/card2.png)  
+  
+![card3](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/card3.gif)  
+  
+## Task 4: Bob Dylan  
