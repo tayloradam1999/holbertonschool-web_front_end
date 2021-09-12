@@ -61,3 +61,18 @@ This task provides us with a raw html file and has us implement bootstrap classe
 ![card3](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/card3.gif)  
   
 ## Task 4: Bob Dylan  
+**Requirements:**  
+- You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes  
+- You can not change the HTML structure - only adding classes is allowed
+  
+This task provides us with another raw html file and has us implement more bootstrap classes. The tasks are starting to give us **LITTLE TO NO DIRECTION**, so from what I can see, this task will have us working with drop down links/menus. Basically, all I have to go off of are these jpgs and gifs :)  
+  
+![bd1](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/bd1.png)  
+  
+![bd2](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/bd2.png)  
+  
+![bd3](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/bd3.png)  
+  
+![bd4](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/bd4.gif)  
+  
+## Task 5: Show/Hide - screen size
