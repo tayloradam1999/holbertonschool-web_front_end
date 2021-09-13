@@ -75,4 +75,13 @@ This task provides us with another raw html file and has us implement more boots
   
 ![bd4](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/bd4.gif)  
   
-## Task 5: Show/Hide - screen size
+## Task 5: Show/Hide - screen size  
+**Requirements:**  
+- You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes  
+- You can not change the HTML structure - only adding classes is allowed  
+  
+This task gives us a very short HTML file being only around 20 lines long. The goal of this task is to learn how to display/hide divs and text at certain breakpoints. This tasks also touches a little more on changing the width of containers at certain breakpoints, too.  
+  
+![d](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/d.gif)  
+  
+## Task 6: Overwrite CSS  
