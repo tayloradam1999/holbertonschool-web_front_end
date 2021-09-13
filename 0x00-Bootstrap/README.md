@@ -85,3 +85,16 @@ This task gives us a very short HTML file being only around 20 lines long. The g
 ![d](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/d.gif)  
   
 ## Task 6: Overwrite CSS  
+Create the custom stylesheet ```6-styles.css``` to match this layout.  
+  
+![61](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/61.png)  
+  
+![62](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/62.png)  
+  
+![63](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/63.gif)  
+  
+**Requirements:**  
+- You are not allow to define any styling in the head or inline of the HTML
+- You can not change the HTML
+  
+This task gives us a template found on [getbootstrap.com](https://getbootstrap.com/) and asks us to make some changes **ONLY** using CSS to their liking. Nothing more than some background, text, and border color changes are made on this task. 
