@@ -11,6 +11,7 @@ function countPrimeNumbers() {
 			primes.push(counter);
 		}
 	}
+	return primes;
 }
 
 const t0 = performance.now();
