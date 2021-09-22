@@ -3,13 +3,13 @@ function countPrimeNumbers() {
 	for (var counter = 2; counter <= 100; counter++) {
     	var not_prime = false;
     	for (var div = 3; div <= (counter - 1); div++)  {
-        	if (counter % div === 0) {
+			if (counter % div === 0) {
 				not_prime = true;
 			}
     	}
-    if (not_prime === false) {
-		primes.push(counter);
-	}
+    	if (not_prime === false) {
+			primes.push(counter);
+		}
 	}
 }
 
