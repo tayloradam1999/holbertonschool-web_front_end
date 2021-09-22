@@ -2,7 +2,7 @@ function countPrimeNumbers() {
 	let primes = [];
 	for (var counter = 2; counter <= 100; counter++) {
     	var not_prime = false;
-    	for (var div = 3; div <= (counter - 1); div++)  {
+    	for (var div = 3; div <= (counter - 1); div++) {
 			if (counter % div === 0) {
 				not_prime = true;
 			}
