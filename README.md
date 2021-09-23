@@ -2,7 +2,7 @@
 
 ## Trimester 3 - Front-end Web Development  
 - 0x00. [Bootstrap](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x00-Bootstrap)  
-- 0.00. [Javascript Advanced](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x00-Javascript_advanced)  
+- 0x00. [Javascript Advanced](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x00-Javascript_advanced)  
 - 0x00. [Advanced HTML](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x00-html_advanced)  
 - 0x00. [Sass & Scss](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x00-sass_scss)  
 - 0x01. [Advanced CSS](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x01-CSS_advanced)  
