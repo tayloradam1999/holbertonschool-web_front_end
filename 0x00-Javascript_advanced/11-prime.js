@@ -18,6 +18,6 @@ function countPrimeNumbers() {
 
 const t0 = performance.now();
 for (let i = 0; i <= 100; i++) {
-	countPrimeNumbers();
+	setTimeout(countPrimeNumbers, 0);
 }
 const t1 = performance.now();
