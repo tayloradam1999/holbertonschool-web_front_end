@@ -19,13 +19,13 @@
 
 					$(`input[type="submit"]`).click(function () {
 						queryWikipedia($(`input[type="text"]`).val()); // query queryWikipedia with value of text 'input'
-						console.log($(`input[type="text"]`).val());
+						// console.log($(`input[type="text"]`).val());
 					});
 			}
 
 			function addNewArticle(id, title, snippet) {
 				$("ul").append(`<li></li>`);
-				$("li").append(`<p><span>${id} -</span><b>${title}</b></p>`);
+				$("li").append(`<p><span>${id} - </span><b>${title}</b></p>`);
 				$("li").last().append(`<p>${snippet}</p>`);
 			}
 
