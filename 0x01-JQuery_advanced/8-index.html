@@ -25,19 +25,22 @@
 			}
 
 			function addNewArticle(id, title, snippet) {
-				let li = $("<li></li>");
-				let p1 = $("<p></p>");
-				let p2 = $("<p></p>");
-				let span = $("<span></span>");
-				let b = $("<b></b>");
+				// let li = $("<li></li>");
+				// let p1 = $("<p></p>");
+				// let p2 = $("<p></p>");
+				// let span = $("<span></span>");
+				// let b = $("<b></b>");
 
-				b.append(title);
-				span.append(id + " - ", b);
-				p1.append(span);
-				p2.append(snippet);
-				li.append(p1, p2);
+				// b.append(title);
+				// span.append(id + " - ", b);
+				// p1.append(span);
+				// p2.append(snippet);
+				// li.append(p1, p2);
 
-				$("ul").first().append(li);
+				// $("ul").first().append(li);
+				$("ul").append("<li></li>");
+				$("li").last().append(`<p><span>${id}</span> - <b>${title}</b></p>`);
+				$("li").last().append(`<p>${snippet}</p>`);
 			}
 
 			function queryWikipedia(search, offset = 0) {
@@ -58,12 +61,12 @@
 			function buildPagination(numberOfItems, itemsPerPage, currentOffset) {
 				$("#pagination").html(`<li id="pagination"></li>`);
 				for (let i = 0; i < numberOfItems / itemsPerPage; i++) {
-					$("#pagination li").append(i);
-					$("#pagination li").css({"cursor": "pointer", "display": "inline"});
+					$("#pagination").append(i);
+					$("#pagination").css({"cursor": "pointer", "display": "inline"});
 					if (i === currentOffset) {
-						$("#pagination li").css({"font-weight": "bold"});
+						$("#pagination").css({"font-weight": "bold"});
 					}
-					$("#pagination li").click(function () {
+					$("#pagination").click(function () {
 						queryWikipedia($(`input[type="text"]`).val(), $("li").html());
 					});
 				}
