@@ -18,14 +18,11 @@
 
 			function listPosts() {
 				$.get("http://localhost:3000/posts", function(data) {
-					var myStatus = response.status;
-					if (myStatus === 200) {
-						for (let i = 0; i < data.query.search.length; i++) {
-							addPostRow(data);
-						}
-					} else {
-						alert("Server Error");
+					data.forEach(addPostRow);
 					}
+				)
+				.fail(function () {
+					alert("Server error");
 				});
 			}
 
