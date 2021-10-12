@@ -16,21 +16,19 @@
 
 		function showCookies() {
 			const myP = document.createElement("p");
-			myP.innerHTML = `${document.cookie.toUpperCase()}`;
+			myP.innerHTML = `Email: ${getCookie("email")} - Firstname: ${getCookie("firstname")}`;
 			document.querySelector("body").append(myP);
 		}
 
 		function getCookie(name) {
-			const myName = `${name}=`;
-			const decoded = decodeURIComponent(document.cookie);
-			const myArr = decoded.split(';');
-			
-			let res = "";
-			myArr.forEach(val => {
-				if (val.indexOf(name) === 0) res = val.substring(name.length);
-			})
-			return res;
-		}
+			const cookies = document.cookie.split("; ");
+			for (let i = 0; i < cookies.length; i++) {
+				let array = cookies[i].split("=");
+				if (array[0] === name) {
+					return (array[1]);
+				}
+			}
+			return '';
 	</script>
 </head>
 <body>
