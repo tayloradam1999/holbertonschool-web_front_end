@@ -23,13 +23,13 @@
 			document.cookie = `firstname=${document.getElementById("firstname").value};`;
 			document.cookie = `email=${document.getElementById("email").value};`;
 			document.cookie = `expires=${CookieDate.toUTCString()}`;
+			showWelcomeMessageOrForm();
 		}
 
 		function showCookies() {
 			const myP = document.createElement("p");
 			myP.innerHTML = `Email: ${getCookie("email")} - Firstname: ${getCookie("firstname")}`;
 			document.querySelector("body").append(myP);
-			showWelcomeMessageOrForm();
 		}
 
 		function getCookie(name) {
@@ -76,6 +76,7 @@
 				hideForm();
 				}
 			}
+
 	</script>
 
 </body>
