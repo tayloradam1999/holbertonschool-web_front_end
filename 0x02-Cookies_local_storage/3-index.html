@@ -70,7 +70,7 @@
 				myWelcome.setAttribute("id", "welcome-message");
 				myWelcome.innerHTML = 
 					`Welcome: ${getCookie("firstname")}
-					<a style="font-weight: normal; font-style: italic, margin-left: 10px;" onclick="deleteCookiesAndShowForm(); showForm();">
+					<a style="font-weight: normal; font-style: italic; margin-left: 10px;" onclick="deleteCookiesAndShowForm(); showForm();">
 					(logout)</a>`;
 				document.body.appendChild(myWelcome);
 				hideForm();
