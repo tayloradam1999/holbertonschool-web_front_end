@@ -1,7 +1,7 @@
 # holbertonschool-web_front_end
 
 ## Trimester 3 - Front-End Web Development  
-All of the concept based front-end Web Development projects for Holberton School Tulsa  
+All of the concept based Front-End Web Development projects for Holberton School Tulsa  
   
 - 0x00. [Bootstrap](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x00-Bootstrap)  
 - 0x00. [Javascript Advanced](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x00-Javascript_advanced)  
