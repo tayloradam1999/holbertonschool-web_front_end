@@ -272,7 +272,35 @@ function ssTest() {
   
 ## 0x02. [Developer tools](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x02-developer_tools)  
   
+[Overview](https://developer.chrome.com/docs/devtools/overview/)  
+  
+Get started with Google Chrome's built-in web developer tools  
+  
+[Open Chrome DevTools](https://developer.chrome.com/docs/devtools/open/)  
+  
+All of the ways that you can open Chrome DevTools.  
+  
+[What's new in DevTools](https://developer.chrome.com/tags/new-in-devtools/)  
+  
+[Engineering blog](Learn how the team builds new features in DevTools.)  
+  
+### Learning Objectives
+- What Developer Tools in your browser are
+- How to open the Developer Tools on Chrome, Firefox, Safari, and Edge.
+- How to use the elements tab to edit HTML and CSS
+- How to audit a page according to the tips suggested by Lighthouse
+- How to create and run snippets on a page
+- How to get information about files and server configurations
+- How to block requests
+- How to know how much JavaScript or CSS is used on a page
+- How to detect 404 issues
+- How to move elements on a webpage  
+  
 ## 0x02. [Forms](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x02-form)  
+  
+```<form>``` is a HTML element to collect input data with containing interactive controls. It provides facilities to input text, number, values, email, password, and control fields such as checkboxes, radio buttons, submits buttons, etc. or in other words, form is a container that contains input elements, like text, email, number, radio buttons, checkboxes, submit buttons, etc. Forms are generally used when you want to collect data from the user. For example, a user wants to buy a bag online, so he/she has to first enter their shipping address in the address form and then add their payment detail in the payment form to place an order.
+  
+Forms are created by placing input fields within paragraphs, preformatted text, lists and tables. This gives considerable flexibility in designing the layout of forms. 
   
 ## 0x03. [Accessibility](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x03-accessibility)
   
