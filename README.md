@@ -61,7 +61,7 @@ In other words, Bootstrap helps web developers build websites faster as they don
 - How to use binding
 - How to use callbacks
   
-**An example of of binding a variable to an object**  
+**An example of binding a variable to an object**  
   
 ```javascript
 let roomDimensions = {
