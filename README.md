@@ -204,9 +204,77 @@ jQuery is a fast, small, and feature-rich JavaScript library. It makes things li
 $( "button.continue" ).html( "Next Step..." )
 ```
   
-0x01. [Flexbox](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x01-flexbox)  
-0x02. [Cookies & local storage](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x02-Cookies_local_storage)  
-0x02. [Developer tools](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x02-developer_tools)  
-0x02. [Forms](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x02-form)  
-0x03. [Accessibility](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x03-accessibility)  
-0x03. [Responsive design](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x03-responsive_design)  
+## 0x01. [Flexbox](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x01-flexbox)  
+  
+Before the Flexbox Layout module, there were four layout modes:  
+- Block, for sections in a webpage
+- Inline, for text
+- Table, for two-dimensional table data
+- Positioned, for explicit position of an element
+  
+The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.  
+  
+The only way to learn Flexbox is by playing this [game](https://flexboxfroggy.com/)  
+  
+### Learning Objectives
+- What is Flexbox?
+- How to convert float positioning to a flex display
+- How to horizontally and vertically align elements using Flexbox
+- The difference between the main and cross axes
+- Properties that work on flex elements vs flex container
+- Shorthands for flex
+- How to create a new page with flex in mind  
+  
+**An example of centering the div with class 'Div' in the center of the screen.**  
+  
+```css
+.Div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+```  
+  
+## 0x02. [Cookies & local storage](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x02-Cookies_local_storage)  
+  
+On client and server, the following storages are available: local storage, session storage, and cookies.  
+  
+The Local Storage is designed for storage that spans multiple windows and lasts beyond the current session. In particular, Web applications may wish to store megabytes of user data, such as entire user-authored documents or a user's mailbox, on the client side for performance reasons. Cookies do not handle this case well because they are transmitted with every request.  
+  
+Local Storage is available for every page and remains even when the web browser is closed, but you cannot read it on the server.  
+  
+The stored data has no expiration date in local storage. With cookies, you can set the expiration duration.  
+  
+If you want to clear local storage, then do it by clearing the browser cache. You can also use JavaScript for this. Local Storage is for client side, whereas cookies are for the client as well as server side.  
+  
+### Learning Objectives
+- Understand how to create cookies using Javascript
+- Learn how to set specific settings for the cookie
+- Learn how to read cookies with Javascript
+- How to use js-cookie for easy cookie manipulation
+- How to use the browser web storage
+- The differences between local storage and session storage
+  
+**Here is an example of a function that tests if session storage is useable.**  
+  
+```javascript
+function ssTest() {
+			let test = 'test';
+			try {
+				sessionStorage.setItem('test', 'test');
+				sessionStorage.removeItem('test');
+				return true;
+			} catch (e) {
+				return false;
+			}
+		}
+```  
+  
+## 0x02. [Developer tools](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x02-developer_tools)  
+  
+## 0x02. [Forms](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x02-form)  
+  
+## 0x03. [Accessibility](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x03-accessibility)
+  
+## 0x03. [Responsive design](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x03-responsive_design)  
+   
