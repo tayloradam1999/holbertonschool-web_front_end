@@ -61,7 +61,7 @@ In other words, Bootstrap helps web developers build websites faster as they don
 - How to use binding
 - How to use callbacks
   
-**An example of binding the variable 'boundGetArea' to the object 'roomDimensions' to the 'getArea' function**  
+**An example of creating a variable named 'boundGetArea' that will bind the object 'roomDimensions' to the 'getArea' function**  
   
 ```javascript
 let roomDimensions = {
