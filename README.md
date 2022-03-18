@@ -136,9 +136,9 @@ Let’s list down the main difference between SASS and SCSS.
 - How to import a Sass file
 - How to use mixins
 - How to declare extend/inheritance styles
-- How to manipulate operators
-
-**An example of a SASS file that creates H* tags, where '*' is the size of the font used.**  
+- How to manipulate operators  
+  
+**An example of a SASS file that creates H tags, where '*' is the size of the font used.**  
   
 ```scss
 /* h1 must have font size equal to 1px, h2 must have font size equal to 2px, etc.
