@@ -259,15 +259,15 @@ If you want to clear local storage, then do it by clearing the browser cache. Yo
   
 ```javascript
 function ssTest() {
-			let test = 'test';
-			try {
-				sessionStorage.setItem('test', 'test');
-				sessionStorage.removeItem('test');
-				return true;
-			} catch (e) {
-				return false;
-			}
-		}
+	let test = 'test';
+	try {
+		sessionStorage.setItem('test', 'test');
+		sessionStorage.removeItem('test');
+		return true;
+	} catch (e) {
+		return false;
+	}
+}
 ```  
   
 ## 0x02. [Developer tools](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x02-developer_tools)  
