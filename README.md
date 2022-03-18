@@ -39,6 +39,18 @@ In other words, Bootstrap helps web developers build websites faster as they don
   
 ## 0x00. [Javascript Advanced](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x00-Javascript_advanced)  
   
+### New ES6 Syntax
+- let – declare block-scoped variables using the ```let``` keyword.
+- let vs. var – understand the differences between ```let``` and ```var```.
+- const – define constants using the ```const``` keyword.
+- Default function parameters – learn how to set the default value for parameters of a function.
+- Rest parameter – introduce you to the rest parameter and how to use them effectively.
+- Spread operator – learn how to use the spread operator effectively.
+- Object literal syntax extensions – provide a new way to define object literal.
+- for…of – learn how to use the ```for...of``` loop to iterate over elements of an iterable object.
+- Octal and binary literals –  provide support for binary literals and change the way to represent octal literals.
+- Template literals – learn how to substitute variables in a string.  
+  
 ### Learning Objectives
 - What is lexical scoping in JavaScript
 - What is closure in JavaScript
@@ -48,6 +60,22 @@ In other words, Bootstrap helps web developers build websites faster as they don
 - The execution stack order with JavaScript
 - How to use binding
 - How to use callbacks
+  
+**An example of of binding a variable to an object**  
+  
+```javascript
+let roomDimensions = {
+	width: 50, 
+	length: 100, 
+	getArea() {
+		return this.width * this.length;
+	}
+};
+
+let boundGetArea = roomDimensions.getArea.bind(roomDimensions);
+
+boundGetArea(); // output 5000
+```  
   
 ## 0x00. [Advanced HTML](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x00-html_advanced)  
   
