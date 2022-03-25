@@ -304,5 +304,24 @@ Forms are created by placing input fields within paragraphs, preformatted text, 
   
 ## 0x03. [Accessibility](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x03-accessibility)
   
+Accessibility (often abbreviated to A11y — as in "a" then 11 characters then "y") in Web development means enabling as many people as possible to use Web sites, even when those people's abilities are limited in some way.  
+  
+For many people, technology makes things easier. For people with disabilities, technology makes things possible. Accessibility means developing content to be as accessible as possible no matter an individual's physical and cognitive abilities and no matter how they access the web.  
+  
+"The Web is fundamentally designed to work for all people, whatever their hardware, software, language, culture, location, or physical or mental ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability.
+  
+### A great tool to help monitor the accessibility of your website is [Webaccessibility.com](https://www.webaccessibility.com/)  
+  
+#### 1. Register for Free Monitoring  
+  
+Once you receive your health score, register for free site monitoring via Level Access’ Elevin Community Edition. Elevin is an intuitive and easy-to-use dashboard where you can find your latest results, view progress over time, and so much more. You can get simple summaries of your most common issues and where they reside, as well as helpful guidance and learning resources.  
+  
+[Get Started](https://www.webaccessibility.com/#jump) 
+  
+<div>
+  <img src="">
+  
+
+  
 ## 0x03. [Responsive design](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x03-responsive_design)  
    
