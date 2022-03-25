@@ -310,7 +310,9 @@ For many people, technology makes things easier. For people with disabilities, t
   
 "The Web is fundamentally designed to work for all people, whatever their hardware, software, language, culture, location, or physical or mental ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability.
   
-### A great tool to help monitor the accessibility of your website is [Webaccessibility.com](https://www.webaccessibility.com/)  
+### A great tool to help monitor the accessibility of your website is <[Webaccessibility.com](https://www.webaccessibility.com/)>   
+  
+<img src="">
   
 #### 1. Register for Free Monitoring  
   
@@ -319,7 +321,14 @@ Once you receive your health score, register for free site monitoring via Level 
 [Get Started](https://www.webaccessibility.com/#jump) 
   
 <div>
-  <img src="">
+  <img src="https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/readme_assets/1.png">
+</div>
+  
+#### 2. Log in to View Dashboard
+  
+After signing up, you’ll enter the URL you want to have monitored for potential barriers. On your dashboard, you’ll receive an accessibility “Health Score” based on your results. This is your digital property’s high-level summary – plus several deeper, actionable insights.
+  
+[Start tracking now!](https://www.webaccessibility.com/#jump)  
   
 
   
