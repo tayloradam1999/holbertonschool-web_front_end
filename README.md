@@ -354,7 +354,7 @@ Responsive Web Design is about using HTML and CSS to automatically resize a webs
   
 Responsive Web Design is about making a website look good on all devices (desktops, tablets, and phones):  
   
-<img src"https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/readme_assets/responsive.jpg">
+<img src="https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/readme_assets/responsive.jpg">
   
 ### Setting the Viewport
   
