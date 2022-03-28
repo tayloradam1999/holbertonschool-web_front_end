@@ -7,6 +7,8 @@ Bootstrap is a free and open-source web development framework. It’s designed t
   
 In other words, Bootstrap helps web developers build websites faster as they don’t need to worry about basic commands and functions. It consists of HTML, CSS, and JS-based scripts for various web design-related functions and components  
 
+<hr>
+
 ### Learning Objectives  
 - When to use a Class or a function to create a component
 - The lifecycle of a Class component
@@ -14,6 +16,8 @@ In other words, Bootstrap helps web developers build websites faster as they don
 - How to utilize a Jest spy to verify that a function is being called correctly
 - What an HOC is and how to use it
 - How to optimize performance and control which components to render  
+
+<hr>
   
 **Example of ```index.html``` with Bootstrap CDN links**  
   
@@ -50,6 +54,8 @@ In other words, Bootstrap helps web developers build websites faster as they don
 - for…of – learn how to use the ```for...of``` loop to iterate over elements of an iterable object.
 - Octal and binary literals –  provide support for binary literals and change the way to represent octal literals.
 - Template literals – learn how to substitute variables in a string.  
+
+<hr>
   
 ### Learning Objectives
 - What is lexical scoping in JavaScript
@@ -59,7 +65,9 @@ In other words, Bootstrap helps web developers build websites faster as they don
 - How to simulate private methods with Closure
 - The execution stack order with JavaScript
 - How to use binding
-- How to use callbacks
+- How to use callbacks  
+  
+<hr>
   
 **An example of creating a variable named 'boundGetArea' that will bind the object 'roomDimensions' to the 'getArea' function**  
   
@@ -80,6 +88,8 @@ boundGetArea(); // output 5000
 ## 0x00. [Advanced HTML](https://github.com/tayloradam1999/holbertonschool-web_front_end/tree/main/0x00-html_advanced)  
   
 The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.  
+
+<hr>
   
 ### Learning Objectives
 - Which guidelines to follow for HTML
@@ -95,6 +105,8 @@ The HyperText Markup Language or HTML is the standard markup language for docume
 - How to integrate an audio file in a webpage
 - How to embed external content
 - How to correctly structure an HTML page  
+
+<hr>
   
 **Example of boiler plate ```index.html```**  
   
@@ -124,7 +136,9 @@ Let’s list down the main difference between SASS and SCSS.
 - SASS follows strict indentation, SCSS has no strict indentation.
 - SASS has a loose syntax with white space and no semicolons, the SCSS resembles more to CSS style and use of semicolons and braces are mandatory.
 - SASS file extension is .sass and SCSS file extension is .scss.
-- SASS has more developer community and support than SCSS. 
+- SASS has more developer community and support than SCSS.  
+
+<hr>
   
 ### Learning Objectives  
 - What Sass means
@@ -137,6 +151,8 @@ Let’s list down the main difference between SASS and SCSS.
 - How to use mixins
 - How to declare extend/inheritance styles
 - How to manipulate operators  
+  
+<hr>
   
 **An example of a SASS file that creates H tags, where '*' is the size of the font used.**  
   
@@ -158,6 +174,8 @@ Cascading Style Sheets (CSS) is a style sheet language used for describing the p
   
 CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.  
   
+<hr>
+  
 ### Learning Objectives
 - Selectors, properties, and values
 - The difference between block and inline styling
@@ -170,7 +188,9 @@ CSS is designed to enable the separation of presentation and content, including 
 - How to make background gradients
 - How to animate elements in CSS
 - How to transform (2d, 3d) elements
-- What vendor prefixes are
+- What vendor prefixes are  
+  
+<hr>
   
 **Here is an example of styling the 'button' class with only variable values.**  
   
@@ -189,6 +209,8 @@ CSS is designed to enable the separation of presentation and content, including 
   
 jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.  
   
+<hr>
+  
 ### Learning Objectives
 - Learn how to load jQuery from a CDN in a page
 - Learn the different ways to create DOM elements with jQuery
@@ -196,7 +218,9 @@ jQuery is a fast, small, and feature-rich JavaScript library. It makes things li
 - Learn how to add new elements to a page with different positions
 - Learn how to add a click handler on an element
 - Learn how to send GET, POST, DELETE or any type of AJAX query with jQuery
-- Learn how to create a pagination
+- Learn how to create a pagination  
+  
+<hr>
   
 **An example of changing the html of the <button> element with the class 'continue' to 'Next Step...'**  
   
@@ -216,6 +240,8 @@ The Flexible Box Layout Module, makes it easier to design flexible responsive la
   
 The only way to learn Flexbox is by playing this [game](https://flexboxfroggy.com/)  
   
+<hr>
+  
 ### Learning Objectives
 - What is Flexbox?
 - How to convert float positioning to a flex display
@@ -224,6 +250,8 @@ The only way to learn Flexbox is by playing this [game](https://flexboxfroggy.co
 - Properties that work on flex elements vs flex container
 - Shorthands for flex
 - How to create a new page with flex in mind  
+  
+<hr>
   
 **An example of centering the div with class 'Div' in the center of the screen.**  
   
@@ -247,13 +275,17 @@ The stored data has no expiration date in local storage. With cookies, you can s
   
 If you want to clear local storage, then do it by clearing the browser cache. You can also use JavaScript for this. Local Storage is for client side, whereas cookies are for the client as well as server side.  
   
+<hr>
+  
 ### Learning Objectives
 - Understand how to create cookies using Javascript
 - Learn how to set specific settings for the cookie
 - Learn how to read cookies with Javascript
 - How to use js-cookie for easy cookie manipulation
 - How to use the browser web storage
-- The differences between local storage and session storage
+- The differences between local storage and session storage  
+  
+<hr>
   
 **Here is an example of a function that tests if session storage is useable.**  
   
@@ -286,7 +318,9 @@ Stay up to date with the latest DevTools changes.
   
 [Engineering blog](https://developer.chrome.com/tags/devtools-engineering/) 
   
-Learn how the team builds new features in DevTools.
+Learn how the team builds new features in DevTools.  
+  
+<hr>
   
 ### Learning Objectives
 - What Developer Tools in your browser are
@@ -312,13 +346,17 @@ Accessibility (often abbreviated to A11y — as in "a" then 11 characters then "
   
 For many people, technology makes things easier. For people with disabilities, technology makes things possible. Accessibility means developing content to be as accessible as possible no matter an individual's physical and cognitive abilities and no matter how they access the web.  
   
-"The Web is fundamentally designed to work for all people, whatever their hardware, software, language, culture, location, or physical or mental ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability.
+"The Web is fundamentally designed to work for all people, whatever their hardware, software, language, culture, location, or physical or mental ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability.  
+  
+<hr>
   
 ### Learning Objectives
 - ARIA’s main purpose
 - WCAG conformance levels (A, AA and AAA)
 - The importance of Web Accessibility
-- Tools to use for Web Accessibility
+- Tools to use for Web Accessibility  
+  
+<hr>
   
 ### A great tool to help monitor the accessibility of your website is <[Webaccessibility.com](https://www.webaccessibility.com/)>   
   
@@ -397,6 +435,8 @@ Resize the browser window to see that the three elements below will display hori
 }
 </style>
 ```  
+  
+<hr>
   
 ### Learning Objectives
 - Mobile-first design
